@@ -13,17 +13,43 @@
 
 main{
     background-color: rgb(246, 233, 107, 0.5);
-    padding: 30px;
+    padding-bottom: 100px;
 }
   
-.img-config{
-    padding: 10%;
-    align-items: center;
+.texto-yungas{
+    padding: 40px;
 }
-
-
+.intro{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.intro{
+    width: 70%;
+    margin: 0 auto;
+}
+.resenas{
+    padding: 40px;
+}
+.img-config{
+    padding: 20px;
+}
 .btn-color{
     background-color:rgb(190, 220, 116) ;
+}
+.contacto{
+    width: 90%;
+    margin: 0 auto;
+}
+.contacto h4{
+    padding-bottom: 20px;
+}
+.border-custom{
+    background-color: rgb(162, 202, 113);
+    border-radius: 20px;
+    padding: 30px;
+}
+.contacto p{
+    margin: 0px;
 }
 footer{
     padding: 20px;
