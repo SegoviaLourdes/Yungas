@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                      <img src="img/logo.png" alt="" width="180" height="150">
+                    </a>
+                  </div>
+             
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav d-flex align-items">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Atractivos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Parque Nacional de Calilegua</a></li>
+                      <li><a class="dropdown-item" href="#">Reserva Provincial "Las Lancitas"</a></li>
+                      <li><a class="dropdown-item" href="#">Termas del Jordan</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Cultura
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Gastronomia</a></li>
+                      <li><a class="dropdown-item" href="#">Eventos</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Alojamiento
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Alojamientos</a></li>
+                      <li><a class="dropdown-item" href="#">Gastos</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Transporte</a>
+                  </li>
+                  <li class="nav-item icono">
+                    <a class="nav-link" href="#"><i class="bi bi-person-fill "></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <h1 class="text-center">YUNGAS</h1>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="ima/calilegua.jfif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>PARQUE NACIONAL CALILEGUA</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="ima/jordan.jfif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>TERMAS DEL JORDAN</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="ima/lancitas.jfif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>RESERVA PROVINCIAL LAS LACINTAS</h5>
+                </div>
+              </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <container class="introduccion">
+          <h4>TRANSPORTE</h4>
+          <p class="text-center">
+            <p>¿Cómo llegar Parque Nacional de Calilegua?</p>
+
+           <p> - En auto: Por la Ruta Nacional Nº 34, tomar la referencia de la localidad de Libertador General San Martín (120 km de San Salvador de Jujuy). Luego, tomar la Ruta Provincial Nº 83, que atraviesa el Parque y llega hasta el Departamento Valle Grande.</p>
+          <p>  - En omnibus: Desde la Terminal de Ómnibus de Libertador General San Martín (8 km del Parque), tomar el colectivo diario a las 08:30 hs. con destino a San Francisco/Valle Grande, que atraviesa el Parque (indicar parada en Aguas Negras). Regreso en horas de la tarde, pasando por Mesada de las Colmenas a las 18:00 hs y por Aguas Negras a las 18:30 hs.</p>
+           <p> - Taxi: Servicios disponibles en Libertador General San Martín y Calilegua.</p>
+           <p> ¿Cómo llegar a las Termas del Jordán?</p>
+
+           <p> Ubicadas en las impresionantes Yungas de Jujuy, las Termas del Jordán ofrecen un refugio de relajación y bienestar. Para llegar a este oasis, tienes varias opciones de transporte:</p>
+
+            <p>- En omnibus: Desde Libertador General San Martín hasta San Salvador de Jujuy, con un viaje de 3 horas y 51 minutos y un costo de $4.500 a $6.500 aprox.</p>
+            <p>- Taxi: Un servicio más rápido y directo desde Libertador General San Martín hasta las Termas del Jordán, con un viaje de 2 horas y 32 minutos y un costo de $8.000 a $12.000 aprox.</p>
+            <p>- Alquiler de coche: Conducir hasta las Termas del Jordán es una opción conveniente, con un viaje de 2 horas y 32 minutos desde Libertador General San Martín. El precio varía según el alquiler.</p>
+          
+         <p>  ¿ Cómo llegar a la Reserva Provincial Las Lacintas?</p>
+
+           <p> Ubicada en el corazón de Las Yungas de Jujuy, la Reserva Provincial Las Lacintas es un destino natural impresionante que espera ser explorado. Aquí te presentamos las opciones de transporte para llegar a la reserva:</p>
+
+            <p>-En auto:
+           Desde San Salvador de Jujuy, toma la Ruta Nacional 34 hacia el norte durante aproximadamente 60 km.
+           Luego, toma el desvío hacia la localidad de Calilegua y sigue durante 20 km.
+           Finalmente, toma el camino de tierra que conduce a la reserva.</p>
+
+            -En omnibus:
+           Puedes tomar un autobús desde la terminal de ómnibus de San Salvador de Jujuy hacia la localidad de Calilegua.
+           Desde allí, puedes tomar un taxi o caminar hasta la reserva.
+
+            -En taxi:
+            Puedes contratar un taxi en San Salvador de Jujuy o Calilegua para que te lleve directamente a la reserva.
+          </p>
+        </p>
+        </container>
+
+        <container class="resenas">
+           <h4>Reseñas</h4>
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="card mb-3">
+                          <div class="row g-0">
+                            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                              <img src="img/persona 1.png" class="img-fluid rounded-start img-config" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title">Nombre</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                <button type="button" class="btn btn-color">Leer más</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card mb-3">
+                          <div class="row g-0">
+                            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                              <img src="img/persona 1.png" class="img-fluid rounded-start img-config" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title">Nombre</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                <button type="button" class="btn btn-color">Leer más</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card mb-3">
+                          <div class="row g-0">
+                            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                              <img src="img/persona 1.png" class="img-fluid rounded-start img-config" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title">Nombre</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                <button type="button" class="btn btn-color">Leer más</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card mb-3">
+                        <div class="row g-0">
+                          <div class="col-md-4 d-flex justify-content-center align-items-center">
+                            <img src="img/persona 1.png" class="img-fluid rounded-start img-config" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Nombre</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                              <button type="button" class="btn btn-color">Leer más</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card mb-3">
+                        <div class="row g-0">
+                          <div class="col-md-4 d-flex justify-content-center align-items-center">
+                            <img src="img/persona 1.png" class="img-fluid rounded-start img-config" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Nombre</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                              <button type="button" class="btn btn-color">Leer más</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card mb-3">
+                        <div class="row g-0">
+                          <div class="col-md-4 d-flex justify-content-center align-items-center">
+                            <img src="img/persona 1.png" class="img-fluid rounded-start img-config" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Nombre</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                              <button type="button" class="btn btn-color">Leer más</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card mb-3">
+                        <div class="row g-0">
+                          <div class="col-md-4 d-flex justify-content-center align-items-center">
+                            <img src="img/persona 1.png" class="img-fluid rounded-start img-config" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Nombre</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                              <button type="button" class="btn btn-color">Leer más</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card mb-3">
+                        <div class="row g-0">
+                          <div class="col-md-4 d-flex justify-content-center align-items-center">
+                            <img src="img/persona 1.png" class="img-fluid rounded-start img-config" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Nombre</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                              <button type="button" class="btn btn-color">Leer más</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card mb-3">
+                        <div class="row g-0">
+                          <div class="col-md-4 d-flex justify-content-center align-items-center">
+                            <img src="img/persona 1.png" class="img-fluid rounded-start img-config" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Nombre</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                              <button type="button" class="btn btn-color">Leer más</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </container>
+
+        <container class="contacto">
+           <h4>Contactanos</h4>
+           
+
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Nombre</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Facundo">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Apellido</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Perez">
+            </div>
+            
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Escribe un mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Mensaje" rows="3"></textarea>
+              </div>
+            
+            
+              <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                  <button type="submit" class="btn btn-color">Enviar</button>
+                </div>
+                <div class="col-md-6 text-md-end text-center">
+                  <p>¡Gracias por su mensaje!</p>
+                </div>
+              </div>
+          </form>
+        </container>
+    </main>
+    <footer>
+        <div class="container text-start">
+            <div class="row">
+                <div class="col-sm">
+                    <img src="img/logo.jpeg" alt="" width="200" height="180">
+
+                    <h2>Telefonos</h2>
+                    <p><i class="bi bi-whatsapp"></i> 388 134-0967</p>
+                    
+                    <h2>Redes</h2>
+                    <i class="bi bi-instagram fs-4"></i>
+                    <i class="bi bi-facebook fs-4"></i>
+                    <i class="bi bi-youtube fs-4"></i>
+                </div>
+              <div class="col-sm">
+                <h2>Atractivos</h2>
+                <p><a href="">Parque Nacional de Calilegua</a></p>
+                <p><a href="">Reserva Provincial "Las Lancitas"</a></p>
+                <p><a href="">Termas del Jordan</a></p>
+              </div>
+              <div class="col-sm">
+                <h2>Cultura</h2>
+                <p><a href="">Gastronomia</a></p>
+                <p><a href="">Eventos</a></p>
+                <h2>Alojamiento</h2>
+                <p><a href="">Alojamiento</a></p>
+                <p><a href="">Gastos</a></p>
+              </div>
+              
+            </div>
+          </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
