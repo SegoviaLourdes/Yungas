@@ -15,8 +15,7 @@ main{
     background-color: rgb(246, 233, 107, 0.5);
     padding-bottom: 100px;
 }
-  
-.texto-yungas{
+.texto-config{
     padding: 40px;
 }
 .intro{
@@ -61,4 +60,31 @@ footer{
 a{
     color: black;
     text-decoration: none;
+}
+
+/*Termas de Jordan*/
+
+.config-body{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.img-config-termas{
+    padding-bottom: 50px;
+}
+.card-title-termas{
+    padding-bottom: 20px;
+}
+.text-mapa{
+    padding-left: 80px;
+}
+.map-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mapa-config{
+    border: 0;
+}
+.carrusel-termas{
+    padding: 80px;
 }
