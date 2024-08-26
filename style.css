@@ -1,0 +1,129 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar{
+    background-color: rgb(190, 220, 116);
+    font-size: 20px;
+}
+.bi-person-fill{
+    background-color:rgb(162, 202, 113);
+    padding: 5px;
+    border-radius: 100%;
+}
+
+main{
+    background-color: rgb(246, 233, 107, 0.5);
+    padding-bottom: 100px;
+}
+.texto-config{
+    padding: 40px;
+}
+.intro{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 70%;
+    margin: 0 auto;
+}
+.into-config{
+    padding: 20px;
+    background-color: rgb(246, 233, 107, 0.5);
+    border-radius: 20px;
+}
+.resenas{
+    padding: 40px;
+}
+.img-config{
+    padding: 20px;
+}
+.btn-color{
+    background-color:rgb(190, 220, 116) ;
+}
+.contacto{
+    width: 90%;
+    margin: 0 auto;
+}
+.contacto h4{
+    padding-bottom: 20px;
+}
+.border-custom{
+    background-color: rgb(162, 202, 113);
+    border-radius: 20px;
+    padding: 30px;
+}
+.contacto p{
+    margin: 0px;
+}
+footer{
+    padding: 20px;
+    background-color: rgb(190, 220, 116);
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/*Termas de Jordan*/
+
+.config-body{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.img-config-termas{
+    padding-bottom: 50px;
+}
+.card-title-termas{
+    padding-bottom: 20px;
+}
+.text-mapa{
+    padding-left: 80px;
+}
+.map-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mapa-config{
+    border: 0;
+}
+.carrusel-termas{
+    padding: 80px;
+}
+
+.btn-color{
+    background-color:rgb(190, 220, 116) ;
+}
+footer{
+    padding: 20px;
+    background-color: rgb(190, 220, 116);
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+ 
+.card-img-top{
+    border-radius: 30px;
+    padding: 20px;
+
+}
+
+.card{
+    border-radius: 30 px;
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.card-body{
+    padding: 25 px;
+    margin-top: -15px;
+}
+
+.btn-primary{
+    background-color:rgb(190, 220, 116);
+    border-color:rgb(190, 220, 116);
+}
+
+.btn-primary:hover{
+    background-color:rgb(225, 255, 187);
+    border-color:rgb(225, 255, 187);
+}
