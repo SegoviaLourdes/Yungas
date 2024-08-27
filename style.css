@@ -10,7 +10,9 @@
     padding: 5px;
     border-radius: 100%;
 }
-
+body{
+    background-color: #f8ee8d;
+}
 main{
     background-color: rgb(246, 233, 107, 0.5);
     padding-bottom: 100px;
@@ -126,4 +128,9 @@ a{
 .btn-primary:hover{
     background-color:rgb(225, 255, 187);
     border-color:rgb(225, 255, 187);
+}
+
+.caja-evento{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
